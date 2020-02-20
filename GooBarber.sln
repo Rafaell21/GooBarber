@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apresentacao", "{C3151D5F-9F16-4890-8289-46909D8D5D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Dominio", "1 - Dominio", "{12CB04A5-36CE-47A9-AC99-F9451F75C058}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Servico", "2 - Servico", "{E36452EC-F09D-48D3-95E1-87B62DAD0D6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{65627813-9BD6-4987-B702-40D75444F4DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Comum", "4 - Comum", "{3A5F30BB-6D15-491C-AA89-DA1A27E760AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goobarber.dominio", "Goobarber.dominio\Goobarber.dominio.csproj", "{906CEC00-19D8-46CE-A880-1203605281DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906CEC00-19D8-46CE-A880-1203605281DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906CEC00-19D8-46CE-A880-1203605281DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906CEC00-19D8-46CE-A880-1203605281DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906CEC00-19D8-46CE-A880-1203605281DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{906CEC00-19D8-46CE-A880-1203605281DA} = {12CB04A5-36CE-47A9-AC99-F9451F75C058}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A5CD692-8A7D-4D7E-BBBC-1793262F3736}
+	EndGlobalSection
+EndGlobal
